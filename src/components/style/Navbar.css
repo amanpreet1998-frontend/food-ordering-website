@@ -1,0 +1,138 @@
+.navbar {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+   background-color: white;
+}
+
+.logo {
+   width: 200px;
+}
+
+.navbar-list .hover-text-primary:hover {
+   color: #ff5500 !important;
+   
+}
+
+.search-bar {
+   position: relative;
+}
+
+.search-icon {
+   position: absolute;
+   right: 10px;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 30px;
+   height: 30px;
+
+}
+
+
+
+.header .header-right {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+
+.dot {
+   position: absolute;
+   min-width: 10px;
+   min-height: 10px;
+   background-color: tomato;
+   border-radius: 5px;
+   top: -8px;
+   right: -8px;
+   margin-top: 40px;
+   margin-right: 110px;
+}
+
+@media(max-width:1200px) {
+   .dot {
+      margin-top: 386px;
+      margin-right: 337px;
+   }
+}
+
+@media(max-width:1040px) {
+   .dot {
+      margin-top: 386px;
+      margin-right: 337px;
+   }
+}
+
+.header li {
+   text-decoration: none;
+}
+
+.form-control {
+   height: 35px;
+   width: 200px;
+}
+
+
+@media (max-width:575px) {
+   .basket {
+      margin-left: 15px;
+      height: 30px;
+      width: 30px;
+   }
+
+   .cursor-pointer {
+      margin-left: 15px;
+      height: 30px;
+      width: 30px;
+   }
+}
+
+@media (max-width:399px) {
+   .basket {
+      margin-left: 15px;
+      height: 30px;
+      width: 30px;
+   }
+
+   .cursor-pointer {
+      margin-left: 15px;
+      height: 30px;
+      width: 30px;
+   }
+}
+
+@media(max-width:396px) {
+   .dot {
+      margin-top: 386px;
+      margin-right: 330px;
+   }
+}
+
+@media(max-width:376px) {
+   .dot {
+      margin-top: 386px;
+      margin-right: 315px;
+   }
+}
+
+@media(max-width:361px) {
+   .dot {
+      margin-top: 386px;
+      margin-right: 300px;
+   }
+}
+
+@media(max-width:345px) {
+   .dot {
+      margin-top: 386px;
+      margin-right: 280px;
+   }
+}
+
+@media(max-width:330px) {
+   .dot {
+      margin-top: 386px;
+      margin-right: 260px;
+   }
+}

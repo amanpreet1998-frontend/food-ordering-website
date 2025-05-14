@@ -1,0 +1,13 @@
+export { default as Navbarr} from "./Navbarr";
+export { default as Home } from "./Home";
+export { default as Search } from "./Search";
+export { default as Menu } from "./Menu";
+export { default as About } from "./About";
+export { default as ReviewPage} from "./ReviewPage";
+export { default as Footer} from "./Footer";
+export { default as Login} from "./Login";
+export { default as Cart} from "./Cart";
+export { default as PlaceOrder} from "./PlaceOrder";
+export { default as Register} from "./Register";
+export { default as Profile} from "./Profile";
+export { motion } from 'framer-motion';

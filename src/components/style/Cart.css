@@ -1,0 +1,462 @@
+.cart {
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cart-item-title {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    color: grey;
+    font-size: max(1vw, 12px);
+}
+
+.cart-items-item {
+    margin: 10px 0px;
+    color: black;
+}
+
+.cart-items-item img {
+    width: 100px;
+}
+
+.cart-items-item .cross {
+    cursor: pointer;
+}
+
+.cart-items-item .add {
+    cursor: pointer;
+}
+
+.cart-bottom {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: max(12vw, 20px);
+}
+
+.cart-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+
+.cart-total hr {
+    margin: 10px 0px;
+}
+
+.cart-total button {
+    border: none;
+    color: white;
+    background-color: tomato;
+    width: max(15vw, 250px);
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.cart-promocode {
+    flex: 1;
+}
+
+.cart-promocode p {
+    color: #555;
+}
+
+.cart-promocode-input {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 4px;
+}
+
+.cart-promocode-input input {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    padding-right: 170px;
+}
+
+
+.cart-promocode-input button {
+    width: max(20vw, 150px);
+    padding: 12px 5px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.add {
+    height: 30px;
+    width: 50px;
+    border: 2px solid rgb(11, 86, 11);
+    background-color: rgb(11, 86, 11);
+    color: white;
+    font-weight: bold;
+}
+
+.sub {
+    height: 30px;
+    width: 50px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+}
+
+.mul {
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+
+    font-size: medium;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+@media (max-width:1050px) {
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+    }
+
+    .cart-promocode-input button {
+        width: max(70vw, 200px);
+        padding: 12px 5px;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width:913px) {
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+    }
+
+    .cart-promocode-input button {
+        width: max(70vw, 200px);
+        padding: 12px 5px;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .cart-total button {
+        margin-left: 200px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:769px) {
+    .cart {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+    }
+
+    .cart-promocode-input button {
+        width: max(40vw, 150px);
+        padding: 12px 5px;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .cart-total button {
+        border: none;
+        color: white;
+        background-color: tomato;
+        width: max(15vw, 250px);
+        padding: 10px 0px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 200px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:541px) {
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+    }
+
+    .cart-promocode-input button {
+        width: max(40vw, 150px);
+        padding: 5px 5px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .cart-total button {
+        border: none;
+        color: white;
+        background-color: tomato;
+        width: max(15vw, 250px);
+        padding: 5px 0px;
+        height: 30px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .cart-promocode-input input {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media(max-width:431px) {
+    .cart {
+        margin-top: 100px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .cart-img {
+        height: 50px;
+        width: 10px;
+    }
+
+    .add {
+        height: 20px;
+        width: 20px;
+    }
+
+    .sub {
+        height: 20px;
+        width: 20px;
+    }
+
+    .mul {
+        height: 30px;
+        width: 50px;
+        border-radius: 2px;
+
+        font-size: smaller;
+
+        background-color: red;
+        color: white;
+    }
+
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+        margin-top: -10px;
+    }
+
+    .cart-promocode-input button {
+        width: max(40vw, 150px);
+        padding: 5px 5px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .cart-total button {
+        border: none;
+        color: white;
+        background-color: tomato;
+        width: max(15vw, 250px);
+        padding: 5px 0px;
+        height: 30px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+
+    .cart-promocode-input input {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media(max-width:415px) {
+    .cart {
+        margin-top: 100px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .cart-img {
+        height: 50px;
+        width: 10px;
+    }
+
+    .add {
+        height: 20px;
+        width: 20px;
+    }
+
+    .sub {
+        height: 20px;
+        width: 20px;
+    }
+
+    .mul {
+        height: 30px;
+        width: 50px;
+        border-radius: 2px;
+
+        font-size: smaller;
+
+        background-color: red;
+        color: white;
+    }
+
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+        margin-top: -10px;
+    }
+
+    .cart-promocode-input button {
+        width: max(40vw, 150px);
+        padding: 5px 5px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .cart-total button {
+        border: none;
+        color: white;
+        background-color: tomato;
+        width: max(15vw, 250px);
+        padding: 5px 0px;
+        height: 30px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+
+    .cart-promocode-input input {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media(max-width:376px) {
+    .cart {
+        margin-top: 100px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .cart-img {
+        height: 50px;
+        width: 10px;
+    }
+
+    .add {
+        height: 20px;
+        width: 20px;
+    }
+
+    .sub {
+        height: 20px;
+        width: 20px;
+    }
+
+    .mul {
+        height: 30px;
+        width: 50px;
+        border-radius: 2px;
+
+        font-size: smaller;
+
+        background-color: red;
+        color: white;
+    }
+
+    .cart-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .cart-promocode {
+        justify-content: start;
+        margin-top: -10px;
+    }
+
+    .cart-promocode-input button {
+        width: max(40vw, 150px);
+        padding: 5px 5px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+    }
+
+    .cart-total button {
+        border: none;
+        color: white;
+        background-color: tomato;
+        width: max(15vw, 250px);
+        padding: 5px 0px;
+        height: 30px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .cart-promocode-input input {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
