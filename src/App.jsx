@@ -1,8 +1,18 @@
 import React,{useState} from 'react';
 import './App.css';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
-
-import {Home,Navbarr,Search,Menu,About,ReviewPage,Footer,Login,Cart,PlaceOrder,Register,Profile} from "./components";
+import Home from "./components/Home";
+import Navbarr from "./components/Navbarr";
+import Search from "./components/Search";
+import Menu from "./components/Menu";
+import About from "./components/About";
+import ReviewPage from "./components/ReviewPage";
+import Footer from "./components/Footer";
+import Login from "./components/Login";
+import Cart from "./components/Cart";
+import PlaceOrder from "./components/PlaceOrder";
+import Register from "./components/Register";
+import Profile from "./components/Profile";
 import { toast,ToastContainer } from 'react-toastify';
 
 const App = () => {
