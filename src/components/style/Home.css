@@ -40,7 +40,14 @@
     color: orangered;
     font-weight: bold;
 }
-
+@media (max-width:1550px) {
+    .main {
+        height: 550px;
+        margin-left: 130px;
+        width: 1330px;
+        margin-top: 200px;
+    }
+}
 @media (max-width:1450px) {
     .main {
         height: 550px;
