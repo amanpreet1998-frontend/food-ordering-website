@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './App.css';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 import Home from "./components/Home";
@@ -13,6 +13,8 @@ import Cart from "./components/Cart";
 import PlaceOrder from "./components/PlaceOrder";
 import Register from "./components/Register";
 import Profile from "./components/Profile";
+
+
 import { toast,ToastContainer } from 'react-toastify';
 
 const App = () => {

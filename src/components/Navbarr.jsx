@@ -81,7 +81,7 @@ const Navbarr = () => {
                     </div>
                     {user ? (
                       <Nav.Link eventKey={2} >
-                        <motion.button whileTap={{ scale: 0.6 }} onClick={handleLogout} className="cursor-pointer me-4">
+                        <motion.button whileTap={{ scale: 0.6 }} onClick={handleLogout} className="cursor-pointer me-2">
                           Logout
                         </motion.button>
                       </Nav.Link>

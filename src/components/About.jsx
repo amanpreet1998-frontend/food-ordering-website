@@ -6,13 +6,10 @@ import time from '../assets/time.png';
 import '../components/style/About.css';
 import Home from './Home';
 
-
-
 const About = () => {
 
-   return (
+  return (
     <>
-
       <div className='about'>
         <motion.div
           initial={{ opacity: 0 }}

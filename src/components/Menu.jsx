@@ -6,9 +6,6 @@ import '../components/style/Menu.css';
 import { CiSearch } from "react-icons/ci";
 import { StoreContext } from '../context/StoreContext';
 
-
-
-
 const Menu = () => {
 
   const [category, setCategory] = useState("All");
@@ -24,14 +21,9 @@ const Menu = () => {
     return matchesCategory && matchesSearchTerm;
   });
 
-
-
-
   return (
     <>
       <div className='menu' id="menu" >
-
-
         <motion.h1
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}

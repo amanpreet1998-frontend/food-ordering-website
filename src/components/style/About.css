@@ -73,6 +73,9 @@
     color: white;
     font-weight: bold;
 }
+.delivery{
+    display: flex;
+}
 
 @media(max-width:1281px) {
     .delivery img {

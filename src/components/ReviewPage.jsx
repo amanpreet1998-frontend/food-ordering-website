@@ -7,14 +7,11 @@ import User2 from '../assets/Food_Assets/assets/blog/review-author-2.jpg';
 import User3 from '../assets/Food_Assets/assets/blog/review-author-3.jpg';
 import ratingg from '../assets/rating_starts.png';
 
-
 function ReviewPage() {
-
 
   return (
     <>
-
-      <div className='blog'>
+<div className='blog'>
         <Container>
           <Row>
             <Carousel >
